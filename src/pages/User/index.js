@@ -53,7 +53,6 @@ export default class User extends Component {
 
     this.setState({
       stars: [...stars, ...response.data],
-      loading: false,
       page: page + 1,
     });
   };
@@ -79,13 +78,15 @@ export default class User extends Component {
             data={stars}
             keyExtractor={star => String(star.id)}
             renderItem={({item}) => (
-              <Starred>
-                <OwnerAvatar source={{uri: item.owner.avatar_url}} />
-                <Info>
-                  <Title>{item.name}</Title>
-                  <Author>{item.owner.login}</Author>
-                </Info>
-              </Starred>
+              <>
+                <Starred>
+                  <OwnerAvatar source={{uri: item.owner.avatar_url}} />
+                  <Info>
+                    <Title>{item.name}</Title>
+                    <Author>{item.owner.login}</Author>
+                  </Info>
+                </Starred>
+              </>
             )}
           />
         )}
