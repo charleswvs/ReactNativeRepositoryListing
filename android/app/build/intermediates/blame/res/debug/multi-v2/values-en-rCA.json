@@ -4,7 +4,7 @@
             "outputFile": "/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/61bc5ab2cdffbc80c510078054b74992/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/208d8e3cb13f321c9e98cf60ee5a2189/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,7 +14,7 @@
                     }
                 },
                 {
-                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/151dc81f27af5c8bd47177ef0d85f899/res/values-en-rCA/values-en-rCA.xml",
+                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/c6bdab87a7b7ec90641bc0c891cbe1f0/res/values-en-rCA/values-en-rCA.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

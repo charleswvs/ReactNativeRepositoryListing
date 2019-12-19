@@ -4,7 +4,7 @@
             "outputFile": "/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-v4/values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/61bc5ab2cdffbc80c510078054b74992/res/values-xlarge-v4/values-xlarge-v4.xml",
+                    "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/208d8e3cb13f321c9e98cf60ee5a2189/res/values-xlarge-v4/values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",
