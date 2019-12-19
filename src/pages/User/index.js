@@ -74,7 +74,7 @@ export default class User extends Component {
           <Name>{user.name}</Name>
           <Bio>{user.bio}</Bio>
         </Header>
-
+        {/* TODO add a erase button */}
         {loading ? (
           <ActivityIndicator color="#999" />
         ) : (
