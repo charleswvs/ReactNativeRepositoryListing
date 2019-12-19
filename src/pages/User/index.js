@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
 import PropTypes from 'prop-types';
 import api from '../../services/api';
 import {
@@ -17,7 +17,7 @@ import {
 
 // import { Container } from './styles';
 export default class User extends Component {
-  static navigationOptions = ({ navigation }) => ({
+  static navigationOptions = ({navigation}) => ({
     title: navigation.getParam('user').name,
   });
 
@@ -26,7 +26,7 @@ export default class User extends Component {
   };
 
   async componentDidMount() {
-    const { navigation } = this.props;
+    const {navigation} = this.props;
     const user = navigation.getParam('user');
 
     const response = await api.get(`/users/${user.login}/starred`);
@@ -37,22 +37,22 @@ export default class User extends Component {
   }
 
   render() {
-    const { navigation } = this.props;
-    const { stars } = this.state;
+    const {navigation} = this.props;
+    const {stars} = this.state;
     const user = navigation.getParam('user');
     return (
       <Container>
         <Header>
-          <Avatar source={{ uri: user.avatar }} />
+          <Avatar source={{uri: user.avatar}} />
           <Name>{user.name}</Name>
           <Bio>{user.bio}</Bio>
         </Header>
         <Stars
           data={stars}
           keyExtractor={star => String(star.id)}
-          renderItem={({ item }) => (
+          renderItem={({item}) => (
             <Starred>
-              <OwnerAvatar source={{ uri: item.owner.avatar_url }} />
+              <OwnerAvatar source={{uri: item.owner.avatar_url}} />
               <Info>
                 {/* TODO create a loading here */}
                 {/* TODO create a never ending list  */}
