@@ -320,6 +320,10 @@
         "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/208d8e3cb13f321c9e98cf60ee5a2189/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
+        "merged": "/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/android/app/build/intermediates/res/merged/debug/xml_file_provider_paths.xml.flat",
+        "source": "/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/node_modules/react-native-webview/android/build/intermediates/packaged_res/debug/xml/file_provider_paths.xml"
+    },
+    {
         "merged": "/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/android/app/build/intermediates/res/merged/debug/drawable-v21_abc_dialog_material_background.xml.flat",
         "source": "/home/charles/.gradle/caches/transforms-2/files-2.1/208d8e3cb13f321c9e98cf60ee5a2189/res/drawable-v21/abc_dialog_material_background.xml"
     },
