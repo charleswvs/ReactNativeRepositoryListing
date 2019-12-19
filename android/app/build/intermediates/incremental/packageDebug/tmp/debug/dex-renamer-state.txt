@@ -1,4 +1,4 @@
-#Thu Dec 19 12:46:07 BRT 2019
+#Thu Dec 19 17:25:03 BRT 2019
 base.0=/mnt/sda2/Files/Documents/Rocketseat/Bootcamp/ReactNativeRepositoryListing/android/app/build/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
